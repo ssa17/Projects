@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Some of My Favourite Cars</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
     </head>
     <body>
         <section class="header">
@@ -16,7 +22,7 @@
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="">Favourites</a></li>
+                        <li><a href="">Favorites</a></li>
                         <li><a href="">Future</a></li>
                         <li><a href="">Advice</a></li>
                         <li><a href="">About</a></li>
@@ -27,20 +33,77 @@
             </nav>
             <div class="text-box">
                 <h1>Some of my favourite cars</h1>
-                <p>I've created a website to talk about some of my favourite cars aswell as some interesting topics <br>such as what the future holds for cars aswell as some advice on owning a car.
+                <p>
+                    I've created a website to talk about some of my favourite
+                    cars aswell as some interesting topics <br />such as what
+                    the future holds for cars aswell as some advice on owning a
+                    car.
                 </p>
                 <a href="" class="hero-btn">Click here to find out more!</a>
             </div>
         </section>
+
+        <!-----Favorite----->
+        <section class="favorite">
+            <h1>Favorite Cars</h1>
+            <p>
+                Ever since I was little, I've had a fascination and admiration
+                for 'JDM' (Japanese Domestic Market) cars.<br />
+                I'm not quite sure where I first saw them (maybe in a video
+                game), but there was something about them that caught my eye.
+                <br />
+                The first JDM car I came across and fell in love with was the
+                Nissan GT-R (R34)
+            </p>
+
+            <div class="row">
+                <div class="fav-col" id="GTR">
+                    <h3>Nissan Skyline GT-R (R34)</h3>
+                    <p>
+                        The Nissan GT-R (R34) nicknamed 'Godzilla' is a widely
+                        known and loved JDM car. Famed for its aggresive looks
+                        and incredible performance, boasting an in-line 6-cyl,
+                        twin-turbo engine with 4WD. It is usually modified to
+                        increase its performance to mind boggling figures.
+                        Enough to give high performance 'Exotic' cars a run for
+                        their money.
+                    </p>
+                </div>
+                <div class="fav-col" id="RX7">
+                    <h3>Mazda RX-7</h3>
+                    <p>
+                        During my time learning more about JDM cars and playing
+                        video games, I got really into drifting. And when you
+                        talk about drifting and JDM cars, the car that has to be
+                        in the conversation is the RX-7. A rear wheel drive car
+                        with a roatary engine (infamously known) that can go
+                        around a corner in fashion.
+                    </p>
+                </div>
+                <div class="fav-col" id="Supra">
+                    <h3>Toyota Supra MK4</h3>
+                    <p>
+                        The Toyota Supra MK4 was a car that was able to
+                        challenge cars in a variety of races. Be it a circuit
+                        race, a sprint or a drifting challenge. Because of its
+                        rear wheel drive, you're able to have fun with it around
+                        corners and let the back slide out. But it could also
+                        output performance on par with the Nissan Skyline and
+                        outperform Exotic cars.
+                    </p>
+                </div>
+            </div>
+        </section>
+
         <!-----javscript for menu----->
         <script>
-            var navLinks = document.getElementById("navLinks")
+            var navLinks = document.getElementById("navLinks");
 
-            function showMenu(){
-                navLinks.style.right = "0"
+            function showMenu() {
+                navLinks.style.right = "0";
             }
-            function hideMenu(){
-                navLinks.style.right = "-200px"
+            function hideMenu() {
+                navLinks.style.right = "-200px";
             }
         </script>
     </body>
