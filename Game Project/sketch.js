@@ -1,23 +1,3 @@
-/*
-
-The Game Project 5 - Bring it all together
-
-1. The first extension I would like to go through is the sound. Implementing the sound into my game has helped me understand how a sound file is called within
-Javascript and also how simple it is to call it. Adding sounds is very straightforward once I got my head around what it takes to call them.The thing I found 
-most difficult about the sounds is trying to figure where to place the calling function.There were several occasions where the sounds were being called multiple 
-times non-stop. But in the end I managed to sort it with a combination of going over my code again and also using the console log to debug my code. Having a better 
-understanding of soundfiles has helped me understand and create my own .js file where I moved my character drawing functions. It has helped me manage my code better 
-and clean it up.
-
-2.The second extension I would like to explain more about is the creation of enemies and using constructor functions. I have come to understand how useful it can be
-to use constructor functions in codes when something has to be done repetitively but varied slightly. It can be of real assistance in other scenarios such as if you 
-to create a customised list of objects with the same methods and properties. The thing I found difficult about them is wrapping my head around the whole 'this' 
-usage. But I've to understand it better now. It was also a little bit of a challenge differentiating between a constructor function and a normal function, and 
-also when to make a constructor function for codes. Another thing I have been able to get better at is remembering to call and declare variables, as its caused 
-issues a few times and solving the issues has helped me improve.
-
-*/
-
 var gameChar_x;
 var gameChar_y;
 var floorPos_y;
